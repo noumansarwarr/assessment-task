@@ -26,8 +26,7 @@ class Order extends Model
         'subtotal',
         'commission_owed',
         'payout_status',
-        'customer_email',
-        'created_at'
+        'discount_code'
     ];
 
     public function merchant()
